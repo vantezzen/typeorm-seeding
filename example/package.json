@@ -1,0 +1,10 @@
+{
+  "name": "typeorm-seeding-example",
+  "homepage": "https://vantezzen.github.io/typeorm-seeding",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@vantezzen/typorm-seeding": "file:.."
+  }
+}
