@@ -1,7 +1,7 @@
 import { faker } from "@faker-js/faker";
 import Purchase from "../entities/Purchase";
 import PurchaseItem from "../entities/PurchaseItem";
-import { Factory } from "@vantezzen/typorm-seeding";
+import { Factory } from "@vantezzen/typeorm-seeding";
 
 export type PurchaseItemFactoryOptions = { purchase: Purchase };
 

@@ -1,6 +1,6 @@
 import PurchaseFactory from "../factories/PurchaseFactory";
 import PurchaseItemFactory from "../factories/PurchaseItemFactory";
-import { Seeder } from "@vantezzen/typorm-seeding";
+import { Seeder } from "@vantezzen/typeorm-seeding";
 
 export default class PurchaseSeeder extends Seeder {
   async run() {

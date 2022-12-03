@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@vantezzen/typorm-seeding": "file:.."
+    "@vantezzen/typeorm-seeding": "file:.."
   }
 }

@@ -1,4 +1,4 @@
-# @vantezzen/typorm-seeding
+# @vantezzen/typeorm-seeding
 
 > Laravel-inspired seeding system for TypeORM
 
@@ -150,7 +150,7 @@ const purchases = await factory.withCount(10).create();
 Seeders allow calling and combining Factories. To create a seeder, simply extend the base seeder and implement a "run" method.
 
 ```ts
-import { Seeder } from "@vantezzen/typorm-seeding";
+import { Seeder } from "@vantezzen/typeorm-seeding";
 
 // Factories that you want to use in your seeder
 import PurchaseFactory from "../factories/PurchaseFactory";
@@ -185,7 +185,7 @@ The library provides a simple helper method that allows running your seeders eas
 ```ts
 import PurchaseSeeder from "./PurchaseSeeder";
 import SomeOtherSeeder from "./SomeOtherSeeder";
-import { runSeeders } from "@vantezzen/typorm-seeding";
+import { runSeeders } from "@vantezzen/typeorm-seeding";
 
 const runAllSeeders = () => runSeeders([PurchaseSeeder, SomeOtherSeeder]);
 

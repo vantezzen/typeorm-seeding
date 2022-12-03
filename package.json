@@ -1,5 +1,5 @@
 {
-  "name": "@vantezzen/typorm-seeding",
+  "name": "@vantezzen/typeorm-seeding",
   "version": "1.0.0",
   "description": "Laravel-inspired seeding system for TypeORM",
   "author": "vantezzen",
