@@ -2,7 +2,7 @@
 
 > Laravel-inspired seeding system for TypeORM
 
-[![NPM](https://img.shields.io/npm/v/typeorm-seeding.svg)](https://www.npmjs.com/package/typeorm-seeding) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@vantezzen/typeorm-seeding.svg)](https://www.npmjs.com/package/@vantezzen/typeorm-seeding) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 This package adds a seeding and factory pattern to TypeORM entities. If you are familiar with Seeding in Laravel or similar frameworks, you'll feel right at home!
 
@@ -11,7 +11,7 @@ The library is intentionally minimal and only implements required boilerplate so
 ## Install
 
 ```bash
-npm install @vantezzen/typeorm-seeding
+npm install @vantezzen/typeorm-seeding typeorm
 ```
 
 It is highly recommended - though not required - to also install faker.js for generating fake data in your Factories:
